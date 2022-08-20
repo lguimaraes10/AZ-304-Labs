@@ -65,7 +65,7 @@ The main tasks for this exercise are as follows:
 1. In the **Cloud Shell**, select  **Bash** , run the command below to create a new vm for this exercise
 
     ```powershell
-    curl -O https://raw.githubusercontent.com/cemvarol/AZ-304-Labs/master/Lab-04/Lab-04-Resources.bash
+    curl -O https://raw.githubusercontent.com/lguimaraes10/AZ-304-Labs/master/Lab-04/Lab-04-Resources.bash
     ls -la Lab-04-Resources.bash
     chmod +x Lab-04-Resources.bash
     ./Lab-04-Resources.bash
@@ -97,7 +97,7 @@ The main tasks for this exercise are as follows:
 
   cd\
 mkdir Lab04
-$url = "https://raw.githubusercontent.com/cemvarol/AZ-304-Labs/master/Lab-04/Set-Lab.ps1"
+$url = "https://raw.githubusercontent.com/lguimaraes10/AZ-304-Labs/master/Lab-04/Set-Lab.ps1"
 $output = "C:\Lab04\Set-Lab.ps1"
 Invoke-WebRequest -Uri $url -OutFile $output
 Start-Process Powershell.exe -Argumentlist "-file C:\Lab04\Set-Lab.ps1"

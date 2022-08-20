@@ -34,10 +34,10 @@ The main tasks for this exercise are as follows:
 
 1. If you are presented with the **You have no storage mounted** message, click create storage:
 
-1. From the Cloud Shell pane, create a resource group by running the script below. This will create a VM with Server 2019 Operating System in Azure West Europe region to Migrate to another Azure Region. 
+1. From the Cloud Shell pane, create a resource group by running the script below. This will create a VM with Server 2019 Operating System in Azure West Europe region to Migrate to another Azure Region.
 
    ```sh
-   curl -O https://raw.githubusercontent.com/cemvarol/AZ-304-Labs/master/A2A/CreateResources.bash
+   curl -O https://raw.githubusercontent.com/lguimaraes10/AZ-304-Labs/master/A2A/CreateResources.bash
    ls -la CreateResources.bash
    chmod +x CreateResources.bash
    ./CreateResources.bash

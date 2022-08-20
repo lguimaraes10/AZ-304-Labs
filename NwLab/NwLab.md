@@ -20,7 +20,7 @@ Password: **1q2w3e4r5t6y***
 
 
 ```sh
-curl -O https://raw.githubusercontent.com/cemvarol/AZ-304-Labs/master/NwLab/NwLab-Resources.bash
+curl -O https://raw.githubusercontent.com/lguimaraes10/AZ-304-Labs/master/NwLab/NwLab-Resources.bash
 ls -la NwLab-Resources.bash
 chmod +x NwLab-Resources.bash
 ./NwLab-Resources.bash
@@ -133,7 +133,7 @@ Run these commands below on **powershell** console of that VM
 
 4. Follow the steps to complete RRAS setting... Check this image down below
 
-![](https://raw.githubusercontent.com/cemvarol/AZ-301-Updates-Errors/master/M8/RouterConf.png)
+![](https://raw.githubusercontent.com/lguimaraes10/AZ-301-Updates-Errors/master/M8/RouterConf.png)
 
 
 
@@ -205,7 +205,7 @@ The main tasks for this exercise are as follows:
 
    Check this image down below
    
- ![](https://raw.githubusercontent.com/cemvarol/AZ-301-Updates-Errors/master/M8/VM-A-TraceResults.png)
+ ![](https://raw.githubusercontent.com/lguimaraes10/AZ-301-Updates-Errors/master/M8/VM-A-TraceResults.png)
 
 
 >  **Result**: After completing this exercise, you should have validated service chaining between peered virtual networks.
@@ -240,7 +240,7 @@ The main tasks for this exercise are as follows:
 > **Result**: This last task proves that Route Table associated with VN01SN01 is only working from that subnet to its target 10.1.1.0/24 subnet. When you try to reach a resource from 10.2.2.0/24 subnet, packages are transferred over VNet Peering still. 
 
 
-![](https://raw.githubusercontent.com/cemvarol/AZ-301-Updates-Errors/master/M8/Result.png)
+![](https://raw.githubusercontent.com/lguimaraes10/AZ-301-Updates-Errors/master/M8/Result.png)
 
 
 

@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\lucas.s.guimaraes\\OneDrive - Avanade (1)\\Documents 1\\GitHub\\AZ-304-Labs\\Lab-06\\303a.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\lucas.s.guimaraes\\OneDrive - Avanade (1)\\Documents 1\\GitHub\\AZ-304-Labs\\Lab-06\\303a.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\lucas.s.guimaraes\\OneDrive - Avanade (1)\\Documents 1\\GitHub\\AZ-304-Labs\\Lab-06\\303a.csproj",
+        "projectName": "303a",
+        "projectPath": "c:\\Users\\lucas.s.guimaraes\\OneDrive - Avanade (1)\\Documents 1\\GitHub\\AZ-304-Labs\\Lab-06\\303a.csproj",
+        "packagesPath": "C:\\Users\\lucas.s.guimaraes\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\lucas.s.guimaraes\\OneDrive - Avanade (1)\\Documents 1\\GitHub\\AZ-304-Labs\\Lab-06\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas.s.guimaraes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

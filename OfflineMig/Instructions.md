@@ -13,7 +13,7 @@
 3.  In the toolbar of the Cloud Shell pane, run the following command to create the vm.
 
 ```sh
-curl -O https://raw.githubusercontent.com/cemvarol/Upload-N-Create/master/Resources.bash
+curl -O https://raw.githubusercontent.com/lguimaraes10/Upload-N-Create/master/Resources.bash
 ls -la Resources.bash
 chmod +x Resources.bash
 ./Resources.bash
@@ -48,7 +48,7 @@ chmod +x Resources.bash
 ```Powershell
 cd\
 mkdir Lab
-$url = "https://raw.githubusercontent.com/cemvarol/Upload-N-Create/master/SetLab.ps1"
+$url = "https://raw.githubusercontent.com/lguimaraes10/Upload-N-Create/master/SetLab.ps1"
 $output = "C:\Lab\Lab.ps1"
 Invoke-WebRequest -Uri $url -OutFile $output
 Start-Process Powershell.exe -Argumentlist "-file C:\Lab\Lab.ps1"
