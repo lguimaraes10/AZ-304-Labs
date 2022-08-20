@@ -1,4 +1,3 @@
-
 # Lab: Configuring VNet peering and service chaining
   
 
