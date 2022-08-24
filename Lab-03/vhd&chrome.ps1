@@ -1,4 +1,4 @@
-$urlb = "https://github.com/lguimaraes10/AZ-Migration/blob/master/ChromeSetup.exe?raw=true"
+$urlb = "https://github.com/lguimaraes10/AZ-Migration/blob/main/ChromeSetup.exe?raw=true"
 $outputb = "$env:USERPROFILE\downloads\ChromeSetup.exe"
 Invoke-WebRequest -Uri $urlb -OutFile $outputb
 
